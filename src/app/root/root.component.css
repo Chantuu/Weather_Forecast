@@ -1,0 +1,23 @@
+/* This style targets body html element and is used to align two div containers in rows */
+:host {
+    display: flex;
+    flex-direction: row;
+}
+
+/* This style is used to include padding inside total element sizing */
+.sidebarContainer,
+.mainScreenContainer {
+    box-sizing: border-box;
+}
+
+.sidebarContainer {
+    width: var(--root-div-sidebar-container-width);
+    height: var(--root-div-container-height);
+
+    background-color: #3E4345;
+}
+
+.mainScreenContainer {
+    width: var(--root-div-main-screen-container-width);
+    height: var(--root-div-container-height);
+}
