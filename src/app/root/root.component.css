@@ -15,6 +15,8 @@
     height: var(--root-div-container-height);
 
     background-color: #3E4345;
+
+    padding: 35px 60px 72px;
 }
 
 .mainScreenContainer {
